@@ -17,7 +17,7 @@ INSERT INTO albums (artist_name, record_name, release_date, sales_in_millions, g
         ('Led Zeppelin', 'Led Zeppelin IV', 1971, 29.0, 'Hard Rock, Heavy Metal'),
         ('Alanis Morissette', 'Jagged Little Pill', 1995, 24.8, 'Alternative Rock'),
         ('Celine Dion', 'Falling into You', 1996, 20.2, 'Soft Rock, Pop'),
-        ('The Beatles', 'Sgt. Pepper and the Lonely Heart''s Club Band', 1967, 13.1, 'Rock'),
+        ('The Beatles', 'Sgt. Pepper''s Lonely Hearts Club Band', 1967, 13.1, 'Rock'),
         ('Eagles', 'Hotel California', 1976, 21.5, 'Rock, Soft Rock'),
         ('Mariah Carey', 'Music Box', 1993, 17.6, 'Pop, R&B'),
         ('Celine Dion', 'Let''s Talk About Love', 1997, 19.3, 'Pop'),
