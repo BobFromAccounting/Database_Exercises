@@ -1,0 +1,1 @@
+This is where I will be housing the MYSQL database exercises I will be completing during my time here at codeup.
