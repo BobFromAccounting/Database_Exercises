@@ -7,7 +7,7 @@
     artist_name VARCHAR(100) NOT NULL,
     record_name  VARCHAR(100) NOT NULL,
     release_date YEAR(4) NOT NULL,
-    sales_in_millions DECIMAL(15, 2) UNSIGNED ZEROFILL NOT NULL,
+    sales_in_millions DECIMAL(15, 2) NOT NULL,
     genre CHAR(255) NOT NULL,
     PRIMARY KEY (id)
 );
