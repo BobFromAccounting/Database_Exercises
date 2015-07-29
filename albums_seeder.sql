@@ -4,12 +4,12 @@ TRUNCATE albums;
 
 INSERT INTO albums (artist_name, record_name, release_date, sales_in_millions, genre)
     VALUES 
-        ('firs', 'Man In Space', 2008, 10, 'lullaby-rock'),
+        ('firs', 'Man In Space', 2008, 10, 'Lullaby-Rock'),
         ('Michael Jackson', 'Thriller', 1982, 42.4, 'Pop, Rock, R&B'),
         ('Pink Floyd', 'The Dark Side of The Moon', 1973, 22.7, 'Progressive Rock'),
         ('Whitney Houston', 'The Bodyguard', 1992, 27.4, 'Soundtrack/R&B'),
         ('Meat Loaf', 'Bat Out Of Hell', 1977, 20.6, 'Hard Rock, Progressive Rock'),
-        ('Eagles', 'Their Greatest Hits', 1976, 32.2, 'Rock, Soft Rock'),
+        ('Eagles', 'Their Greatest Hits', 1976, 32.2, 'Soft Rock'),
         ('ACDC', 'Back in Black', 1980, 25.9, 'Hard Rock'),
         ('Bee Gees', 'Saturday Night Fever', 1977, 19, 'Disco'),
         ('Fleetwood Mac', 'Rumours', 1977, 27.9, 'Soft Rock'),
