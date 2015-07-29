@@ -10,7 +10,8 @@ WHERE gender = 'm'
 
 SELECT concat(last_name, ' ', first_name) AS last_names_first
 FROM employees
-WHERE last_name LIKE 'E%';
+WHERE last_name LIKE '%e'
+	OR last_name LIKE 'e%';
 
 SELECT concat(first_name, ' ', last_name) AS 1990s_hires
 FROM employees
