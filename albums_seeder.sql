@@ -23,4 +23,16 @@ INSERT INTO albums (artist_name, record_name, release_date, sales_in_millions, g
         ('Celine Dion', 'Let''s Talk About Love', 1997, 19.3, 'Pop'),
         ('The Beatles', '1', 2000, 21.6, 'Rock'),
         ('Adele', '21', 2011, 21.3, 'Pop, soul'),
-        ('The Beatles', 'Abbey Road', 1969, 14.4, 'Rock');
+        ('The Beatles', 'Abbey Road', 1969, 14.4, 'Rock'),
+        ('Bruce Springsteen', 'Born In The U.S.A.', 1984, 19.6, 'Rock'),
+        ('Dire Straits', 'Brother in Arms', 1985, 18.6, 'Rock'),
+        ('Whitney Houston', 'Whitney Houston', 1985, 17.2, 'Pop, R&B'),
+        ('James Horner', 'Titanic: Music from the Motion Picture', 1997, 18.1, 'Soundtrack'),
+        ('Madonna', 'The Immaculate Collection', 1990, 19.4, 'Pop, Dance'),
+        ('Metallica', 'Metallica', 1991, 19.9, 'Thrash Metal, Heavy Metal'),
+        ('Michael Jackson', 'Bad', 1987, 18.4, 'Pop, Funk, Rock'),
+        ('Michael Jackson', 'Dangerous', 1991, 16.3, 'Rock, Funk, Pop'),
+        ('Nirvana', 'Nevermind', 1991, 16.7, 'Grunge, Alternative Rock'),
+        ('Pink Floyd', 'The Wall', 1979, 17.6, 'Progressive Rock'),
+        ('Santana', 'Supernatural', 1999, 20.5, 'Rock'),
+        ('Guns N'' Roses', 'Appetite for Destruction', 1987, 21.3, 'Heavy Metal, Hard Rock');
