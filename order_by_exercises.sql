@@ -11,16 +11,19 @@ ORDER BY last_name ASC, first_name ASC;
 SELECT concat(last_name, ' ', first_name) AS last_names_first
 FROM employees
 WHERE last_name LIKE '%e'
-	OR last_name LIKE 'e%';
+	OR last_name LIKE 'e%'
+ORDER BY emp_no DESC;
 	
 SELECT concat(last_name, ' ', first_name) AS last_names_first
 FROM employees
-WHERE last_name LIKE 'E%e';
+WHERE last_name LIKE 'E%e'
+ORDER BY emp_no DESC;
 
 SELECT concat(first_name, ' ', last_name) AS 1990s_hires
 FROM employees
 WHERE hire_date LIKE '199%'
-	AND (birth_date LIKE '%-12-25');
+	AND (birth_date LIKE '%-12-25')
+ORDER BY birth_date ASC, hire_date DESC;
 
 SELECT concat(first_name, ' ', last_name) AS Holiday_Born
 FROM employees
