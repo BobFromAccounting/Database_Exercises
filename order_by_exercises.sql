@@ -1,3 +1,5 @@
+USE employees_db;
+
 SELECT concat(first_name, ' ', last_name) AS full_name
 FROM employees
 WHERE gender = 'm'
