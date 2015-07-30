@@ -1,8 +1,8 @@
 USE employees_db;
 
-SELECT DISTINCT last_name
+SELECT last_name
 FROM employees
-ORDER BY last_name DESC
+GROUP BY last_name DESC
 LIMIT 10;
 
 SELECT concat(first_name, ' ', last_name) AS 1990s_hires
